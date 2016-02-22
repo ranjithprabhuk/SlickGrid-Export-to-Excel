@@ -5,25 +5,26 @@ jQuery plugin to export the entire data from slick grid to excel. A client side 
 
 * [Demo] (http://slick-excel-export.ranjithprabhu.in)
 
-* [Download Source]  (https://github.com/ranjithprabhuk/Angular-Bootstrap-Dashboard/archive/master.zip)
-
-* Username: admin
-
-* Password: admin
-
-## Features
-* Multiple Themes
-* Multiple Layouts
-* Works in All Modern Browsers
-
-## Plugins used
-* jQuery
-* jQuery Knob
-* Chart.js
-* Owl Carousel
+* [Download Source]  (https://github.com/ranjithprabhuk/SlickGrid-Export-to-Excel/archive/master.zip)
 
 ## Usage
-* Download and customize the application as per your requirements.
+* Include all the files inside the dist as it is in your application (dont call all js in your html page)
+* Include require, underscore and jquery.slickgrid.export.excel js files in the html page
+
+```js
+	<!-- add the following js files for Excel Exporting-->
+    <script src="js/require.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="jquery.slickgrid.export.excel.js"></script>
+
+## Plugins used
+* require
+* jsZip
+* underscore
+* swfobject
+* excel builder
+
+
 
 ## About Author
 * [Author URL] (http://ranjithprabhu.in)

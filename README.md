@@ -1,8 +1,6 @@
 # Slickgrid Export to Excel
 jQuery plugin to export the entire data from slick grid to excel. A client side javascript, jquery plugin to export slick grid to excel. 
 
-## Get The Dashboard
-
 * [Demo] (http://slick-excel-export.ranjithprabhu.in)
 
 * [Download Source]  (https://github.com/ranjithprabhuk/SlickGrid-Export-to-Excel/archive/master.zip)

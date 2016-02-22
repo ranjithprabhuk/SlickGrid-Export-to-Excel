@@ -1,0 +1,39 @@
+﻿
+.slick-header-column {
+    background-color:#428BCA !important;
+}
+.slick-header-column:hover {
+    background:none;
+    background-color:#428BCA !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #d3d3d3;
+    background: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.slick-header-columns {
+    background-color:#428BCA !important;
+    background:none;
+    border-bottom: 1px solid silver;
+}
+
+.slick-cell, .slick-headerrow-column {
+    border:none;
+   border-right: 1px solid #787878;
+   border-bottom:none;
+
+}
+
+#myGrid {
+    border: none;
+}
+
+.even{
+    background-color:#A5BFDD!important;
+}
+.odd{
+    background-color:#FFF!important;
+}

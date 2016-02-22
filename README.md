@@ -22,7 +22,7 @@ jQuery plugin to export the entire data from slick grid to excel. A client side 
 ```
 	<script>
 		requirejs.config({
-			baseUrl: '/examples/js'
+			baseUrl: '/examples/js'  //give the location of the folder which contains require, excel-builder, etc
 		});
 	</script>
 ```
@@ -86,6 +86,10 @@ jQuery plugin to export the entire data from slick grid to excel. A client side 
 ```
 * Give the Download button id='downloadlink'
 * It will automatically add the base 64 content in its href attribute
+
+## Examples
+* Open the examples folder, to find html pages included with our plugin
+* Click the download excel button to download the excel file.
 
 ## Plugins used
 * require

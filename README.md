@@ -39,7 +39,7 @@ jQuery plugin to export the entire data from slick grid to excel. A client side 
 		});
 	</script>
 ```
-# Syntax for export to excel plugin
+## Syntax for export to excel plugin
 ```
 <script>
 	$('body').exportToExcel(fileName.xlsx, excelWorksheetName, data, excelOptions, function (response) {
@@ -53,6 +53,39 @@ jQuery plugin to export the entire data from slick grid to excel. A client side 
 	callback() -> an call back function
 </script>
 ```
+* excelOptions
+```
+	//default formatting options
+	excelOptions = {  
+      headerStyle: {
+          font: {
+              bold: true,  //enable bold
+              font: 12, // font size
+              color: '00ffffff' //font color --Note: Add 00 before the color code
+          },
+          fill: {   //fill background
+              type: 'pattern', 
+              patternType: 'solid',
+              fgColor: '00428BCA' //background color --Note: Add 00 before the color code
+          }
+      },
+      cellStyle: {
+          font: {
+              bold: false,  //enable bold
+              font: 12, // font size
+              color: '00000000' //font color --Note: Add 00 before the color code
+          },
+          fill: {   //fill background
+              type: 'pattern',
+              patternType: 'solid',
+              fgColor: '00ffffff' //background color --Note: Add 00 before the color code
+          }
+      },
+  };
+  //if excelOptions was not loaded, then the excel will be built with above default formatting
+```
+* Give the Download button id='downloadlink'
+* It will automatically add the base 64 content in its href attribute
 
 ## Plugins used
 * require

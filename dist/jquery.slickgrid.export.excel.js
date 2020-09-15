@@ -53,7 +53,7 @@
             	}
 
             	//if cell style is defined by the user, then use that styles
-            	if (options.cellStyles)
+            	if (options.cellStyle)
             		styles["cellstyles"] = stylesheet.createFormat(options.cellStyle);
 
             		//else use default styles
